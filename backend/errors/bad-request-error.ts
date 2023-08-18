@@ -1,0 +1,1 @@
+class BadRequestError extends Error { }

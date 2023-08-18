@@ -1,0 +1,28 @@
+{
+  "name": "art-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node index.ts",
+    "prettier": "prettier '**/*.ts' --check",
+    "prettier-format": "prettier --config .prettierrc '**/*.ts' --write"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@hapi/hapi": "^21.3.2",
+    "@types/hapi": "^18.0.8",
+    "@types/lodash": "^4.14.197",
+    "joi": "^17.9.2",
+    "lodash": "^4.17.21",
+    "node-fetch": "^2.6.12"
+  },
+  "devDependencies": {
+    "@types/hapi__hapi": "^21.0.0",
+    "@types/node": "^20.4.10",
+    "prettier": "^3.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
