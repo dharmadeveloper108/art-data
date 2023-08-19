@@ -1,0 +1,1 @@
+export { SearchArt } from "./SearchArt";
